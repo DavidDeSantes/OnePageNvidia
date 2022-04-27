@@ -1,0 +1,204 @@
+/*ALL*/
+* {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+/*BODY*/
+
+#wrapper{
+    width: 1200px;
+    margin: auto;
+}
+   
+/*HEADER*/
+
+.menuNav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-bottom: 1em;
+}
+
+#img2060rtx img {
+    width: 100%;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+figure{
+    margin: 0;
+    position: relative;
+}
+
+figcaption{
+    background-color: rgba(50, 205, 50, 0.30);
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 5px;
+    left: 0;
+}
+
+figcaption a {
+    background-color: rgb(116,183,27);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto;
+    padding: 6px;
+    border-color: greenyellow;
+    border-radius: 8px;
+    margin-right: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+figcaption p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 1em;
+
+}
+
+/*MAIN*/
+
+main {
+    display: flex;
+    border-bottom: 3px solid rgb(116,183,27);
+
+}
+
+main h1 {
+    text-transform: uppercase;
+    
+    
+}
+
+#arrow {
+    font-size: 4em;
+    color: rgb(116,183,27);
+    margin-left: 6em;
+    margin-top: -39px;
+    
+}
+/*article*/
+
+#h1Logo{
+    display: flex;
+    gap: 10px;
+}
+#h1Logo img {
+    width: 4%;
+    height: 4%;
+    margin-left: 1em;
+    margin-top: 29px;
+}
+
+article {
+    line-height: 22px;
+}
+
+article h1 {
+    margin-top: 1.5em;
+}
+
+/*aside*/
+
+aside {
+    background-color: rgb(116,183,27);
+    color: white;
+    margin-top: 1em;
+    ;
+}
+
+aside p {
+    margin: 1em;  
+}
+
+aside h1 {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+#logoNvidiaNoir {
+    text-align: center;
+}
+
+#iconSocial {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 6em 3em 1em 3em;
+}
+
+#iconSocial i {
+    color: white;
+    font-size: 2.5em;
+
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+}
+
+footer h1, h2{
+    text-transform: uppercase;
+}
+
+/*Section 1*/
+.section1{
+    flex: 1;
+    
+}
+
+form input {
+    margin-bottom: 10px;
+    
+}
+
+.form {
+    width: 16em;
+    height: 3em;
+    color: grey;
+    font-weight: bold;
+}
+ 
+#submit {
+    background-color: rgb(116,183,27);
+    color: white;
+    font-weight: bold;
+    width: 7em;
+    height: 2.5em;
+    
+}
+/*Section 2*/
+.section2{
+    flex: 1;
+}
+
+ #galerie img {
+    width: 20%;
+    margin-left: 5px;
+ }
+/*Section 3*/
+.section3{
+    flex: 1;
+}
+
+#partenaire img{
+    width: 25%;
+    margin-left: 10px;
+}
